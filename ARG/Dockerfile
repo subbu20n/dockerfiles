@@ -1,4 +1,4 @@
-FROM amlalinux:9
+FROM almalinux:9 
 ENV course="devops" \ 
     duration="120hrs" 
 ARG tariner="sivakumar"
