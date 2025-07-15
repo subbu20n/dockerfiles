@@ -1,4 +1,4 @@
-FROM amlalinux:9 
+FROM almalinux:9 
 RUN mkdir /tmp/workdir-demo 
 #RUN CD /tmp/workdir-demo 
 WORKDIR /tmp/workdir-demo 
