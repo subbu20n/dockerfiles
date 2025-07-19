@@ -1,7 +1,7 @@
 FROM version 
-FROM almalinux:${version:-9} 
+FROM almalinux:${verion:-9} 
 ENV course="devops" \ 
     duration="120hrs" 
 ARG trainer="subbu" 
-RUN echo "Hi course is ${couser}, duration is ${duration},trainer is ${trainer}" 
-CMD ["sleep","1000"]
+RUN echo "Hello course is ${course},duration is ${duration},trainer is ${trainer}" 
+CMD ["sleep","1000"]    
