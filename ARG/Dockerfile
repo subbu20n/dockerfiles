@@ -1,5 +1,5 @@
 FROM version 
-FROM almalinux:${verion:-9} 
+FROM almalinux:${version:-9} 
 ENV course="devops" \ 
     duration="120hrs" 
 ARG trainer="subbu" 
