@@ -1,4 +1,5 @@
 FROM almalinux:9 
-LABEL COURSE="DevOps" \ 
+LABEL COURSE="DevOps" \
       DURATION="120HRS" \ 
-      TRAINER="Sivakumar"
+      TRAINER="Sivakumar" \
+      com.joindevops.dockerfile.author="siva@joindevops.com"
