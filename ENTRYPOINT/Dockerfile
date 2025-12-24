@@ -1,9 +1,6 @@
-# FROM almalinux:9 
-# #CMD ["ping","google.com"]
-# #ENTRYPOINT ["ping","google.com"]
-# CMD ["google.com"] 
-# ENTRYPOINT ["ping"]  
-
 FROM almalinux:9 
-#CMD ["ping","google.com"]  
-ENTRYPOINT ["ping","facebook.com"]
+#CMD ["ping","google.com"]
+#ENTRYPOINT ["ping","google.com"]
+CMD ["google.com"] 
+ENTRYPOINT ["ping"]  
+
