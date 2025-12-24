@@ -8,7 +8,7 @@
 # CMD ["sleep","1000"]     
 
 ARG version 
-FROM alamlinux:${version:-9} 
+FROM almalinux:${version:-9} 
 ENV course="devops" \ 
     duration="120hrs" 
 ARG trainer="sivakumar" 
