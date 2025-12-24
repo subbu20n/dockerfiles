@@ -4,4 +4,5 @@ RUN mkdir /tmp/workdir-demo
 WORKDIR /tmp/workdir-demo 
 RUN pwd 
 RUN echo "Hi i am in workdir" > hello.subbu 
-CMD ["sleep","1000"]
+CMD ["sleep","1000"]  
+
