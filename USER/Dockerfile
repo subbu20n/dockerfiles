@@ -6,3 +6,4 @@ RUN useradd subbu
 USER subbu 
 CMD ["google.com"] 
 ENTRYPOINT ["ping"]  
+ 

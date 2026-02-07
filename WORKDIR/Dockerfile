@@ -6,3 +6,4 @@ RUN pwd
 RUN echo "Hi i am in workdir" > hello.subbu 
 CMD ["sleep","1000"]  
 
+ 
